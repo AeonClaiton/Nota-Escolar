@@ -7,15 +7,15 @@ int main(){
 
 	inicio:
 	system("cls");
-	cout << "Digite  o valor da nota1: ";
+	cout << "Digite  o valor da nota 1: ";
 	cin >> n1;
-	cout << "Digite o valor da nota2: ";
+	cout << "Digite o valor da nota 2: ";
 	cin >> n2;
 	//cout << n1 + n2<<endl<<endl;
 	res = n1 + n2;
 	//cout << res;
 	if (res/2 >= 60) {
-		cout << "\nAluno Aprovado\n\n";
+		cout << "\nAluno Aprovado\nParabens!\n";
 		cout << "Media final: " << res /2<<"\n";
 	}
 	else if (res / 2 >= 40) {
